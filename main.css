@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    --background: linear-gradient(180deg, #00CA76 0%, #3DB855 100%);
+    --background-button: linear-gradient(95.26deg, #6BE053 0%, #00E5A8 100%);
+    --green: #33BB5B;
+
+}
+
+h1 {
+    font-family: 'AtypSemiBold';
+    font-size: 3rem;
+    color: white;
+}
+
+p {
+    font-family: 'Grotesk65';
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    margin: 0 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 3.125rem;
+}
+
+.nav-list li a {
+    color: white;
+    font-family: 'Grotesk65';
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.section{
+    display: flex;
+}
+
+.button-main{
+    background: var(--background-button);
+    color: white;
+    padding: 0.8rem 1rem;
+    font-family: 'AtypMedium';
+    font-size: 1rem;
+}
+
+.text-div{ 
+    margin-top: 8rem;
+}
+
+.text-div h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.text-div{
+    margin-top: 4rem;
+}

@@ -1,0 +1,84 @@
+@font-face { 
+    font-family: 'AtypBold';
+    src: url("/assets/fonts/AtypDisplay-Bold.ttf");
+  }
+
+@font-face { 
+    font-family: 'AtypMedium';
+    src: url("/assets/fonts/AtypDisplay-Medium.ttf");
+  }
+
+
+@font-face { 
+    font-family: 'AtypRegular';
+    src: url("/assets/fonts/AtypDisplay-Regular.ttf");
+  }
+
+  @font-face { 
+    font-family: 'AtypSemiBold';
+    src: url("/assets/fonts/AtypDisplay-Semibold.ttf");
+  }
+
+
+@font-face { 
+    font-family: 'Grotesk65';
+    src: url("/assets/fonts/Grotesk-65.ttf");
+  }
+
+body {
+    background: var(--background);
+    background-repeat: no-repeat;
+   
+}
+
+.img-div{
+    margin-top: 7.4rem;
+    margin-left: 10rem;
+}
+
+.img-div img {
+    width: 600px;
+    height: auto;
+}
+
+.buttons-div{
+    margin-top: 4rem;
+}
+
+.buttons-div .button-secondary{
+    background: white;
+    color: var(--green);
+    padding: 0.8rem 2.2rem;
+    margin-left: 2rem;
+    font-family: 'Grotesk65';
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+
+
+/* step-2 */
+
+.img-section{
+    margin-left: 10rem;
+}
+
+input{
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.back-button{
+    color: white;
+    font-family: 'Grotesk65';
+}
+
+.create-nft{
+    padding: 1rem 2.5rem;
+}
+
+/* step-3 */
+
+.button-download{
+    margin-top: 4rem;
+}
