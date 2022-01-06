@@ -26,8 +26,12 @@ p {
     color: white;
 }
 
+html,
+body{
+    height: 100%;
+}
+
 body {
-    height: 100vh;
     margin: 0 10%;
 }
 
@@ -35,7 +39,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
     margin-bottom: 30px;
     padding-top: 30px;
 }
