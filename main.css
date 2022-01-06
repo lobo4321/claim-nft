@@ -64,6 +64,11 @@ button{
     font-weight: 100;
 }
 
+.nav-btn{
+    background: linear-gradient(138.19deg, #36E26A 0%, #00E382 44.27%, #00E4A5 100%);
+    padding: 3rem 1rem 1rem 1rem;
+}
+
 .section{
     display: flex;
 }
