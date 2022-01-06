@@ -33,6 +33,10 @@ body {
 
 /* first-page */
 
+#title-first{
+    margin-top: 6rem;
+}
+
 .content-paragraph-first{
     margin-bottom: 3rem;
 }
