@@ -65,13 +65,6 @@ button{
     display: flex;
 }
 
-.button-main{
-    background: var(--background-button);
-    color: white;
-    padding: 0.8rem 1rem;
-    font-family: 'AtypMedium';
-    font-size: 1rem;
-}
 
 .text-div{ 
     margin-top: 8rem;

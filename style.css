@@ -31,6 +31,12 @@ body {
    
 }
 
+/* first-page */
+
+.content-paragraph-first{
+    margin-bottom: 3rem;
+}
+
 .img-div{
     margin-top: 7.4rem;
     margin-left: 10rem;
@@ -41,22 +47,10 @@ body {
     height: auto;
 }
 
-.buttons-div{
-    margin-top: 4rem;
-}
-
-.buttons-div .button-secondary{
-    background: white;
-    color: var(--green);
-    padding: 0.8rem 2.2rem;
-    margin-left: 2rem;
-    font-family: 'Grotesk65';
-    font-size: 1.125rem;
-    line-height: 1.7rem;
-}
 
 
-/* step-2 */
+
+/* second-page */
 
 .img-section{
     margin-left: 10rem;
@@ -65,7 +59,7 @@ body {
 input{
     padding: 1rem 3rem;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .back-button{
@@ -77,8 +71,99 @@ input{
     padding: 1rem 2.5rem;
 }
 
-/* step-3 */
+/* third-page */
 
 .button-download{
     margin-top: 4rem;
+}
+
+.content-paragraph-third{
+    margin-bottom: 3rem;
+}
+
+/* button 1 */
+
+.btn-area{
+    position: relative;
+    z-index: 99;
+    display: flex;
+}
+
+.btn-main{
+    position: relative;
+    margin-right: 20px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 15px; 
+}
+
+.btn-main:before{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 90%;
+    background: url(/assets/images/btn-border.png) no-repeat center center;
+    background-size: 100% 100%;
+    bottom: 5%;
+    z-index: -1;
+    right: 5%;
+}
+
+.btn-main-content{
+    background: var(--background-button);
+    color: white;
+    padding: 0.8rem 1rem;
+    font-family: 'AtypMedium';
+    font-size: 1rem;
+}
+
+/* button 2 */
+
+.btn-secondary{
+    position: relative;
+    /* margin-right: 20px; */
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 15px; 
+}
+
+.btn-secondary:before{
+    position: absolute;
+    content: "";
+    width: 93%;
+    height: 90%;
+    background: url(/assets/images/btn-border.png) no-repeat center center;
+    background-size: 100% 100%;
+    bottom: 5%;
+    z-index: -1;
+    right: 7.5%;
+}
+
+.btn-secondary-content{
+    background: white;
+    color: var(--green);
+    padding: 0.8rem 2.2rem;
+    font-family: 'Grotesk65';
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+
+/* button 3 */
+
+.btn-main-content-2{
+    background: var(--background-button);
+    color: white;
+    padding: 0.8rem 2rem;
+    font-family: 'AtypMedium';
+    font-size: 1rem;
+}
+
+/* button 4 */
+
+.btn-main-content-3{
+    background: var(--background-button);
+    color: white;
+    padding: 0.8rem 2rem;
+    font-family: 'AtypMedium';
+    font-size: 1rem;
 }
