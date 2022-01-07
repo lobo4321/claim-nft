@@ -103,3 +103,9 @@ button{
         display: none;
     }
 }
+
+@media (max-width:425px){
+.nav-list li a {
+    font-size: 1rem;
+}
+}
