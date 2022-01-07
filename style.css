@@ -44,6 +44,11 @@ body {
 .img-div{
     margin-top: 7.4rem;
     margin-left: 10rem;
+    overflow-x: visible;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
 }
 
 .img-div img {
@@ -51,7 +56,51 @@ body {
     height: auto;
 }
 
+.teste1{
+    position: relative;
+}
 
+.text-div-1{
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    margin-top: 4rem;
+}
+
+@media (max-width:1000px){
+    .text-div-1{
+        width: 75%;
+    }
+
+    .img-div img {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media (max-width:630px){
+    .text-div-1{
+        width: 100%;
+        margin-top: -2rem;
+    }
+    .img-div{
+       left: -6rem;
+        overflow-x: auto;
+    }
+
+    #title-first{
+        font-size: 2rem;
+    }
+
+    .content-paragraph-first{
+        font-size: 1rem;
+    }
+    .img-div img {
+        width: 400px;
+        height: auto;
+    }
+  
+}
 
 
 /* second-page */
@@ -99,7 +148,7 @@ input{
     }
 }
 
-@media (max-width:425px){
+@media (max-width:680px){
     .section{
         display: block;
     }
@@ -143,7 +192,6 @@ input{
 .btn-area{
     position: relative;
     z-index: 99;
-    display: flex;
 }
 
 .btn-main{
