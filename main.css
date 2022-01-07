@@ -4,6 +4,7 @@
     border: none;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 html {
@@ -52,10 +53,14 @@ button{
 .nav-list{
     list-style: none;
     display: flex;
+    overflow-x: clip;
 }
+
+
 
 .nav-list li {
     margin-left: 3.125rem;
+    overflow-x: clip;
 }
 
 .nav-list li a {
