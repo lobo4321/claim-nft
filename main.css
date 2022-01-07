@@ -41,6 +41,7 @@ nav{
     align-items: center;
     margin-bottom: 30px;
     padding-top: 30px;
+    width: 100%;
 }
 
 button{
@@ -85,4 +86,20 @@ button{
 
 .text-div{
     margin-top: 4rem;
+}
+
+
+/* responsive */
+
+.logo-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .logo-mobile{
+        display: block;
+    }
+    .logo-desktop{
+        display: none;
+    }
 }

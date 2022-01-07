@@ -80,6 +80,46 @@ input{
     padding: 1rem 2.5rem;
 }
 
+/* responsive */
+
+
+
+.img-section-mobile{
+    display: none;
+}
+
+.img-section-mobile img{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:420px) and (max-width:768px){
+    .img-section{
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width:425px){
+    .section{
+        display: block;
+    }
+
+    .img-section{
+        display: none;
+    }
+
+    .img-section-mobile{
+        display: block;
+    }
+
+    .btn-area-2{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
 /* third-page */
 
 .button-download{
@@ -88,6 +128,14 @@ input{
 
 .content-paragraph-third{
     margin-bottom: 3rem;
+}
+
+@media (max-width:425px){
+    .btn-area-3{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* button 1 */
